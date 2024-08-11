@@ -30,7 +30,7 @@ function WatchPage() {
     //   navigate(`/broflix/trailer/${imdb_id}`, { state: itemObj });
     // }
     if (itemObj.title) {
-      navigate(`/broflix/stream/${imdb_id}`, { state: itemObj });
+      navigate(`/pirateflix/stream/${imdb_id}`, { state: itemObj });
     }
   };
 

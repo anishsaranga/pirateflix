@@ -18,7 +18,7 @@ import TrailerPage from "./components/TrailerPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/broflix/" element={<Layout />}>
+    <Route path="/pirateflix/" element={<Layout />}>
       <Route path="" element={<Home />} />
 
       <Route path="movies/">

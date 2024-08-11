@@ -30,23 +30,23 @@ function Navbar() {
       <div className="flex flex-row flex-wrap">
         <div className="shadow-lg bg-slate-950 sticky top-0 left-0 flex flex-nowrap justify-items-center items-center z-[100] w-full h-full">
           {/* Logo */}
-          <Link to="/broflix/">
+          <Link to="/pirateflix/">
             <img
               src="./assets/BROFLIX.png"
               className="h-12 p-1 mx-2 my-2 bg-slate-950 hover:cursor-pointer"
-              alt="<Broflix Logo here>"
+              alt="<pirateflix Logo here>"
             />
           </Link>
           {/* Movies and TV shows buttons */}
           <Link
-            to="/broflix/movies"
+            to="/pirateflix/movies"
             button="true"
             className="text-white hover:text-red-600 duration-150 ml-5 mr-3 hidden md:block"
           >
             Movies
           </Link>
           <Link
-            to="/broflix/tv"
+            to="/pirateflix/tv"
             button="true"
             className="text-white hover:text-red-600 duration-150 m-3 hidden md:block"
           >
