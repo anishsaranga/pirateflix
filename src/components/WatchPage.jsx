@@ -25,8 +25,12 @@ function WatchPage() {
     // if imdb_id is undefined, don't route
     // if (imdb_id !== "undefined")
     //   navigate(`/broflix/trailer/${imdb_id}`, { state: itemObj });
+    // below if not required for pirateflix
+    // if (itemObj.title) {
+    //   navigate(`/broflix/trailer/${imdb_id}`, { state: itemObj });
+    // }
     if (itemObj.title) {
-      navigate(`/broflix/trailer/${imdb_id}`, { state: itemObj });
+      navigate(`/broflix/stream/${imdb_id}`, { state: itemObj });
     }
   };
 
