@@ -32,7 +32,7 @@ function Navbar() {
           {/* Logo */}
           <Link to="/broflix/">
             <img
-              src="./assets/broflix.png"
+              src="./assets/BROFLIX.png"
               className="h-12 p-1 mx-2 my-2 bg-slate-950 hover:cursor-pointer"
               alt="<Broflix Logo here>"
             />

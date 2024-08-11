@@ -37,9 +37,9 @@ const router = createBrowserRouter(
       </Route>
       <Route path="watch/:imdb_id" element={<WatchPage />} />
 
-      {/* <Route path="stream/">
+      <Route path="stream/">
         <Route path=":imdbIdObj" element={<StreamPage />} />
-      </Route> */}
+      </Route>
 
       <Route path="trailer/">
         <Route path=":imdbIdObj" element={<TrailerPage />} />
